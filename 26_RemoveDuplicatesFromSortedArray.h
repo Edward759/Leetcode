@@ -23,13 +23,6 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 #include "Common.h"
 
-void swap(int& a, int& b)
-    {
-        int tmp = a;
-        a = b;
-        b = tmp;
-    }
-
 int removeDuplicates(vector<int>& nums) 
 {
     if(nums.size() < 2)
